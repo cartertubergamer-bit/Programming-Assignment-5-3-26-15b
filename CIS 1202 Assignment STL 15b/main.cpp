@@ -18,7 +18,17 @@ int half(int value) {
 }
 
 int main() {
-    
+    cout << "Assignment 15b - Templates\n" << endl;
+
+    cout << "half(5) = " << half(5) << endl;
+    cout << "half(6) = " << half(6) << endl;
+
+    cout << "half(5.0) = " << half(5.0) << endl;
+    cout << "half(6.0) = " << half(6.0) << endl;
+
+    cout << "half(5.5f) = " << half(5.5f) << endl;
+    cout << "half(6.7f) = " << half(6.7f) << endl;
+
     return 0;
 }
    
